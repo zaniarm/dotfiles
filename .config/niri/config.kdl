@@ -19,6 +19,7 @@ input {
             // localectl set-x11-keymap.
             layout "fi,ir" //  keyboard layout
             options "grp:alt_space_toggle"
+	    variant "nodeadkeys"
         }
         numlock // Enable numlock on startup
     }
