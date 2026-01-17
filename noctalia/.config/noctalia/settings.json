@@ -477,7 +477,7 @@
         "vicinae": false,
         "walker": false,
         "wezterm": false,
-        "yazi": false,
+        "yazi": true,
         "zed": false,
         "zenBrowser": false
     },
