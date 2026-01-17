@@ -9,6 +9,7 @@
         "iconMode": "tabler",
         "ignoreMouseInput": false,
         "pinnedApps": [
+            "vscodium-wayland"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -34,6 +35,7 @@
         "density": "default",
         "exclusive": true,
         "floating": false,
+        "hideOnOverview": false,
         "marginHorizontal": 4,
         "marginVertical": 4,
         "monitors": [
@@ -189,7 +191,7 @@
         "darkMode": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "matugenSchemeType": "scheme-fruit-salad",
+        "matugenSchemeType": "scheme-rainbow",
         "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "useWallpaperColors": false
@@ -297,7 +299,8 @@
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
-        "showSessionButtonsOnLockScreen": true
+        "showSessionButtonsOnLockScreen": true,
+        "telemetryEnabled": false
     },
     "hooks": {
         "darkModeChange": "",
@@ -306,6 +309,7 @@
         "performanceModeEnabled": "",
         "screenLock": "",
         "screenUnlock": "",
+        "session": "",
         "wallpaperChange": ""
     },
     "location": {
@@ -428,7 +432,7 @@
         "showHeader": true,
         "showNumberLabels": true
     },
-    "settingsVersion": 39,
+    "settingsVersion": 40,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
         "cpuPollingInterval": 3000,
@@ -454,32 +458,41 @@
         "warningColor": ""
     },
     "templates": {
-        "alacritty": false,
-        "cava": false,
-        "code": true,
-        "discord": true,
-        "emacs": false,
-        "enableUserTemplates": false,
-        "foot": false,
-        "fuzzel": false,
-        "ghostty": false,
-        "gtk": true,
-        "helix": false,
-        "hyprland": false,
-        "kcolorscheme": true,
-        "kitty": true,
-        "mango": false,
-        "niri": true,
-        "pywalfox": false,
-        "qt": true,
-        "spicetify": false,
-        "telegram": false,
-        "vicinae": false,
-        "walker": false,
-        "wezterm": false,
-        "yazi": true,
-        "zed": false,
-        "zenBrowser": false
+        "activeTemplates": [
+            {
+                "enabled": true,
+                "id": "gtk"
+            },
+            {
+                "enabled": true,
+                "id": "qt"
+            },
+            {
+                "enabled": true,
+                "id": "kcolorscheme"
+            },
+            {
+                "enabled": true,
+                "id": "kitty"
+            },
+            {
+                "enabled": true,
+                "id": "discord"
+            },
+            {
+                "enabled": true,
+                "id": "code"
+            },
+            {
+                "enabled": true,
+                "id": "yazi"
+            },
+            {
+                "enabled": true,
+                "id": "niri"
+            }
+        ],
+        "enableUserTemplates": false
     },
     "ui": {
         "bluetoothDetailsViewMode": "grid",
