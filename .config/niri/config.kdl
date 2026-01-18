@@ -59,7 +59,7 @@ binds {
 	MOD+S 								hotkey-overlay-title="Steam: steam" {spawn "steam";}
     
     // Please choose your own file manager
-    MOD+E                             	hotkey-overlay-title="File Manager: Dolphin" { spawn-sh "dolphin"; }
+    MOD+E                             	hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
 
     // ─── Audio Controls ───
     // Example volume keys mappings for PipeWire & WirePlumber.
