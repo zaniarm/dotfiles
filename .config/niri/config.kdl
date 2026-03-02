@@ -227,6 +227,16 @@ binds {
         place-within-backdrop true
     }
 
+    gestures {
+        hot-corners {
+            off
+            //top-left
+            //top-right
+            //bottom-left
+            //bottom-right
+        }
+    }
+
 // ────────────── Animation Settings ──────────────
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
     animations {
