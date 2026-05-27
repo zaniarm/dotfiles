@@ -22,8 +22,8 @@
             "org.telegram.desktop",
             "steam",
             "org.es_de.frontend",
-            "vesktop",
-            "blueman-manager"
+            "blueman-manager",
+            "discord"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -109,6 +109,7 @@
             "left": [
                 {
                     "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
                     "customIconPath": "",
                     "enableColorization": false,
                     "icon": "rocket",
@@ -185,6 +186,7 @@
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
+                        "Shelly"
                     ]
                 },
                 {
@@ -221,6 +223,7 @@
                 {
                     "colorizeDistroLogo": false,
                     "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
                     "customIconPath": "",
                     "enableColorization": false,
                     "icon": "noctalia",
@@ -466,7 +469,8 @@
         "use12hourFormat": false,
         "useFahrenheit": false,
         "weatherEnabled": true,
-        "weatherShowEffects": true
+        "weatherShowEffects": true,
+        "weatherTaliaMascotAlways": false
     },
     "network": {
         "bluetoothAutoConnect": true,
@@ -510,8 +514,8 @@
         "respectExpireTimeout": false,
         "saveToHistory": {
             "critical": true,
-            "low": true,
-            "normal": true
+            "low": false,
+            "normal": false
         },
         "sounds": {
             "criticalSoundFile": "",
